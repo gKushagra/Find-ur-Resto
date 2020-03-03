@@ -46,9 +46,21 @@ form{
   display: inline;
 }
 
-input[type=text]{
+@media screen and (max-width: 768px){
+  #searchBar{
+    margin-left: 0;
+  }
+}
+
+#loc{
   border: 2px solid #f9f9f9;
-  width: 300px;
+  width: 410px;
+  padding: 10px;
+  display: inline;
+}
+#cus{
+  border: 2px solid #f9f9f9;
+  width: 250px;
   padding: 10px;
   display: inline;
 }
