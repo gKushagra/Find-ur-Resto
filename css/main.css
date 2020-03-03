@@ -1,0 +1,71 @@
+/*
+  Written by: Kushagra Gupta, UTD
+ */
+body{
+  margin: 0;
+  font-family: Roboto, "Segoe UI", serif;
+}
+
+header{
+  background-color: #ff3366;
+  padding: 10px;
+}
+
+#appName1 {
+  color: white;
+  display: inline;
+}
+
+#appName2 {
+  font-style: italic;
+  color: white;
+  display: inline;
+}
+
+#submitBtn{
+  background-color: #ff3366;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  display: inline;
+}
+
+#submitBtn:hover{
+  background-color: whitesmoke;
+  color: #ff3366;
+}
+
+form{
+  padding: 10px;
+  display: inline;
+}
+
+#searchBar{
+  margin-left: 350px;
+  display: inline;
+}
+
+input[type=text]{
+  border: 2px solid #f9f9f9;
+  width: 300px;
+  padding: 10px;
+  display: inline;
+}
+
+#map, #displayResults{
+  height: 600px;
+  width: 100%;
+}
+
+#displayResults{
+  overflow: scroll;
+}
+
+footer{
+  text-align: center;
+  background-color: #ff3366;
+  padding: 10px;
+  color: white;
+}
+

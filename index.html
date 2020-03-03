@@ -1,0 +1,58 @@
+<!-- Written by: Kushagra Gupta -->
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pick-ur-Resto</title>
+  <meta name="App to pick a resturant">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body onload="getLocation()">
+
+
+<noscript>You need to enable JavaScript to run this app.</noscript>
+
+<header>
+  <h2 id="appName1">Pick-ur-Resto</h2>
+  <p id="appName2">bon appétit!</p>
+</header>
+
+<div class="row no-gutters">
+  <form>
+    <label id="searchBar">
+      <input type="text" name="cuisine" placeholder="Mexican, Italian, Indian, etc." id="cus">
+      <input type="text" name="location" placeholder="Locality, Zip Code, etc." id="loc">
+    </label>
+    <input type="button" onclick="acceptInput()" value="Find Your Resto!" id="submitBtn">
+  </form>
+</div>
+
+<div class="row no-gutters">
+  <div class="col-md-6 no-gutters" id="map"></div>
+  <div class="col-md-6 no-gutters" id="displayResults"></div>
+</div>
+
+<footer>
+  <p><b>Developed by:</b> Kushagra Gupta <b>Visit: </b>gkushagra.github.io</p>
+</footer>
+
+<script src="js/vendor/modernizr-3.8.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
