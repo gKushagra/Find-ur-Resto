@@ -1,8 +1,8 @@
 # Find-ur-Resto
- Pick-ur-Resto, a web application to help people find resturants of their choice!
+Pick-ur-Resto, a web application to help people find resturants of their choice!
+ 
 How does it makes easier using my website to locate resturants? 
-
-->When the page loads up, it displays the nearest resturants to the user's location along with his location displayed in location input field. If the user isn't satisfied with the results the search gave back, he can enter certain cuisines/resturants for example, Burger King or Smoothie King or KFC or Mexican or Thai, etc. whichever he likes the most or is searching for. Upon clicking the 'Find-ur-Resto!'  button,  the search returns nearest resturants that best match users search criteria. Most relevant and required information is displayed, like if resturant is open, price for two, rating based on reviews, phone number and a link to Yelp page of the resturant is user wants to discover more! The UI is easy to read, simple and uses vibrant colors, and displays all the information required. Also, the website is Mobile ready! 
+Ans.When the page loads up, it displays the nearest resturants to the user's location along with his location displayed in location input field. If the user isn't satisfied with the results the search gave back, he can enter certain cuisines/resturants for example, Burger King or Smoothie King or KFC or Mexican or Thai, etc. whichever he likes the most or is searching for. Upon clicking the 'Find-ur-Resto!'  button,  the search returns nearest resturants that best match users search criteria. Most relevant and required information is displayed, like if resturant is open, price for two, rating based on reviews, phone number and a link to Yelp page of the resturant is user wants to discover more! The UI is easy to read, simple and uses vibrant colors, and displays all the information required. Also, the website is Mobile ready! 
 
 Website URL: https://gkushagra.github.io/Find-ur-Resto/
 
@@ -12,11 +12,11 @@ Github Repository: https://github.com/gKushagra/Find-ur-Resto
 
 Folder Structure (Important Files):
 
---css 
+-css 
 
         -main.css
 
---js 
+-js 
 
         -main.js
 
