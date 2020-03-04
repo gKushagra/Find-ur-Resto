@@ -6,10 +6,6 @@ Ans.When the page loads up, it displays the nearest resturants to the user's loc
 
 Website URL: https://gkushagra.github.io/Find-ur-Resto/
 
-Github Repository: https://github.com/gKushagra/Find-ur-Resto
-
-
-
 Folder Structure (Important Files):
 
 -css 
