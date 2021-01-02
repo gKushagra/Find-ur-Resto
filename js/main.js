@@ -4,9 +4,8 @@
     Tech's used: JavaScript, HTML5, CSS3, JQuery, Ajax, Webstorm, Bootstrap
     Note-Please do not misuse the keys!
  */
-var key = 'vbvE_qEDssYbJUbTDpWvXp0EF20emTvnjKMzwEQ8JJorFa1-nNe8ERZLfM6Jod-PW9NsOr5-kj-KHzcl8FHs4zylh7cxgz5eWWS9D8SVe_JwGML5jeX6Xrv1WMZUXnYx';
-var googleMapsKey = 'AIzaSyArXzqyheVbCGtrjQDlmgjPAy3Fn3BGug4';
-
+var var1 = 'vbvE_qEDssYbJUbTDpWvXp0EF20emTvnjKMzwEQ8JJorFa1-nNe8ERZLfM6Jod-PW9NsOr5-kj-KHzcl8FHs4zylh7cxgz5eWWS9D8SVe_JwGML5jeX6Xrv1WMZUXnYx';
+var var2 = 'AIzaSyArXzqyheVbCGtrjQDlmgjPAy3Fn3BGug4';
 var cuisine;
 var userLoc;
 
@@ -21,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var js_file = document.createElement('script');
     js_file.type = 'text/javascript';
-    js_file.src = `https://maps.googleapis.com/maps/api/js?callback=initMap&key=${googleMapsKey}&language=` + lang;
+    js_file.src = `https://maps.googleapis.com/maps/api/js?callback=initMap&key=${var2}&language=` + lang;
     document.getElementsByTagName('head')[0].appendChild(js_file);
   }
 });
@@ -52,7 +51,7 @@ function showPosition(position) {
   $.ajax({
     url: myurl,
     headers: {
-      'Authorization': `Bearer ${key}`,
+      'Authorization': `Bearer ${var1}`,
     },
     method: 'GET',
     dataType: 'json',
@@ -104,7 +103,7 @@ function showPosition(position) {
   });
 
   //Fetching and displaying User's Address
-  fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${position.coords.latitude},${position.coords.longitude}&key=${googleMapsKey}`)
+  fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${position.coords.latitude},${position.coords.longitude}&key=${var2}`)
     .then(response => response.json())
     .then(data => {
       document.getElementById("loc").value = data.results[0].formatted_address;
@@ -175,7 +174,7 @@ function fetchDataFromYelpAPI() {
   $.ajax({
     url: myurl,
     headers: {
-      'Authorization': `Bearer ${key}`,
+      'Authorization': `Bearer ${var1}`,
     },
     method: 'GET',
     dataType: 'json',
